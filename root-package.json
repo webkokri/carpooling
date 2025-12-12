@@ -1,0 +1,28 @@
+{
+  "name": "carpooling-app",
+  "version": "1.0.0",
+  "description": "Full-stack Car Pooling Application with React and Node.js",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:frontend": "react-scripts start",
+    "start:backend": "cd backend && npm run dev",
+    "build": "react-scripts build",
+    "build:backend": "cd backend && npm install --production",
+    "dev": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "carpooling",
+    "react",
+    "nodejs",
+    "mysql",
+    "fullstack"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
