@@ -288,7 +288,8 @@ For support, please open an issue in the GitHub repository or contact the develo
 - Material-UI team
 - Express.js community
 - MySQL team
-
+---
+Get Support ranjeevwassan@gmail.com
 ---
 
-Built with ❤️ for better carpooling experiences
+Built with ❤️ for better carpooling experiences by Ranjeev wassan
